@@ -1,4 +1,4 @@
-# ArchitectureRecuritAI
+# RecruitAI
 
 AI-powered campus placement and internship recommendation system.
 
