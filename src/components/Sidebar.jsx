@@ -10,8 +10,8 @@ function Sidebar() {
         <li><Link to="/student/upload">Upload Resume</Link></li>
         <li><Link to="/student/jobs">Job Recommendation</Link></li>
         <li><Link to="/student/internships">Internships</Link></li>
-        <li><Link to="/student/questions">AI Questions</Link></li>
-        <li><Link to="/student/tracking">Application Tracking</Link></li>
+        <li><Link to="/student/ai-questions">AI Questions</Link></li>
+        <li><Link to="/student/applications">Application Tracking</Link></li>
       </ul>
     </div>
   );

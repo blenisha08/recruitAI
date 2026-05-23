@@ -24,38 +24,17 @@ function ApplicationTracking() {
   return (
     <div className="container">
       <Sidebar />
-      <Navbar />
-
-<h1 style={{ marginTop: "20px" }}>
-  Application Tracking
-</h1>
-
-<ApplicationTable applications={applications} />
 
       <div className="main">
-        <h1>Application Tracking</h1>
+        <Navbar />
 
-        <div className="card">
-          <table width="100%">
-            <thead>
-              <tr>
-                <th>Company</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
+        <h1 style={{ marginTop: "20px" }}>
+          Application Tracking
+        </h1>
 
-            <tbody>
-              {applications.map((app, index) => (
-                <tr key={index}>
-                  <td>{app.company}</td>
-                  <td>{app.role}</td>
-                  <td>{app.status}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ApplicationTable
+          applications={applications}
+        />
       </div>
     </div>
   );
